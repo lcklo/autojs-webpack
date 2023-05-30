@@ -1,5 +1,5 @@
 gitCommand.txt
-/work/*
+work/
 # Logs
 logs
 *.log
