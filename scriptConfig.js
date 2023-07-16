@@ -10,7 +10,19 @@ var projects = [ //项目数组，放的是每一个要编译的项目，
   {
     id: 2, //项目号
     compile: true, //是否编译
+    name: "RED", //项目名称，需要和文件夹名相同
+    main: "./main.js" //主入文件，入口文件，按autojs目录，一般和project.json 同级
+  },
+  {
+    id: 3, //项目号
+    compile: true, //是否编译
     name: "test", //项目名称，需要和文件夹名相同
+    main: "./main.js" //主入文件，入口文件，按autojs目录，一般和project.json 同级
+  },
+  {
+    id: 4, //项目号
+    compile: true, //是否编译
+    name: "pkg", //项目名称，需要和文件夹名相同
     main: "./main.js" //主入文件，入口文件，按autojs目录，一般和project.json 同级
   },
   // {
